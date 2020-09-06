@@ -33,7 +33,7 @@
               </div>
                
               <div class="right"> 
-                  <button class="btn-large waves-effect waves-light" type="submit" name="action">
+                  <button class="btn-large waves-effect waves-light" type="submit">
                       Calcular
                   </button>
               </div>    
@@ -54,7 +54,7 @@
             }
             
             Double amortizacao = saldoDevedor/parcela;
-            Double valorJuros = saldoDevedor * 0.1;
+            Double valorJuros = (saldoDevedor * taxaJuros)/100;
         %>
         
         <div class="container">
