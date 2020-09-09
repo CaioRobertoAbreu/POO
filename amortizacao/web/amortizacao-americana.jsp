@@ -1,5 +1,6 @@
 <%@page import="java.util.Locale"%>
 <%@page import="java.text.NumberFormat"%>
+<%@include file = "cabecalho.jsp" %>
 <!DOCTYPE html>
 <html>
     <head>
@@ -107,3 +108,8 @@
                     </table> 
                 <%}%>            
         </div>
+        
+        <%@include file = "rodape.jsp" %>
+    </body>
+        
+</html>
