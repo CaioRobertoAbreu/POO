@@ -17,7 +17,7 @@
                 
               <div class="row">   
                 <div class="input-field col s4">
-                    Valor Financiado <input placeholder="R$ 40000,00" type="number" name="saldo-devedor" >
+                    Valor Financiado <input placeholder="R$ 40000,00" type="text" name="saldo-devedor" >
                   
                 </div>
                   
