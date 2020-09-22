@@ -1,0 +1,11 @@
+.cadastro{
+    border: 1px solid black;
+}
+
+.tabela, td{
+    border: 1px solid black;
+}
+
+td {
+    padding: 5px 20px 5px 5px;
+}
