@@ -1,3 +1,4 @@
+<%@page import="org.apache.jasper.tagplugins.jstl.core.Redirect"%>
 <%@page import="java.text.NumberFormat"%>
 <%@page import="java.util.Locale"%>
 <%@page import="java.text.DecimalFormat"%>
@@ -53,7 +54,7 @@
             }catch (Exception e){
                 //
             }
-            
+           
             Double amortizacao = saldoDevedor/parcela;
             Double valorJuros = (saldoDevedor * taxaJuros)/100;
         %>
