@@ -54,8 +54,6 @@ public class Disciplina {
 
     public void setNota(Double nota) {
         this.nota = nota;
-        todasDisciplinas.remove(this);
-        todasDisciplinas.add(this);
     }
     
     public static List<Disciplina> getList() {
